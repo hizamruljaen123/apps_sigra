@@ -1,0 +1,88 @@
+kalimat,bobot_kalimat,sentimen,created
+"Saya sangat menyukai smartphone ini!",0.832567,Positif,2023-12-24 12:00:00
+"Kualitas kamera sangat buruk.",-0.478123,Negatif,2023-12-24 12:01:00
+"Harga terlalu mahal untuk fitur yang ditawarkan.",-0.687912,Negatif,2023-12-24 12:02:00
+"Baterai awet seharian.",0.754321,Positif,2023-12-24 12:03:00
+"Sistem operasi sangat lancar.",0.813456,Positif,2023-12-24 12:04:00
+"Tidak ada pembaruan perangkat lunak yang tersedia.",-0.623456,Negatif,2023-12-24 12:05:00
+"Desain smartphone sangat elegan.",0.914567,Positif,2023-12-24 12:06:00
+"Layar smartphone terlalu kecil.",-0.421345,Negatif,2023-12-24 12:07:00
+"Fitur kamera sangat kreatif.",0.712345,Positif,2023-12-24 12:08:00
+"Sinyal jaringan sangat kuat.",0.825432,Positif,2023-12-24 12:09:00
+"Kualitas layar cukup baik.",0.643215,Positif,2023-12-24 12:10:00
+"Harga terjangkau untuk kualitas yang diberikan.",0.721234,Positif,2023-12-24 12:11:00
+"Saya kecewa dengan baterai yang cepat habis.",-0.654321,Negatif,2023-12-24 12:12:00
+"Fitur-fitur canggih membuat smartphone ini luar biasa.",0.945678,Positif,2023-12-24 12:13:00
+"Smartphone ini sangat responsif.",0.865432,Positif,2023-12-24 12:14:00
+"Prosesor yang lambat membuat pengalaman pengguna buruk.",-0.789012,Negatif,2023-12-24 12:15:00
+"Sangat mudah digunakan.",0.912345,Positif,2023-12-24 12:16:00
+"Ukuran layar yang besar membuat menonton video menjadi lebih baik.",0.798765,Positif,2023-12-24 12:17:00
+"Desain fisiknya sangat jelek.",-0.865432,Negatif,2023-12-24 12:18:00
+"Kamera depan tidak sebagus yang saya harapkan.",-0.765432,Negatif,2023-12-24 12:19:00
+"Smartphone ini sering mengalami crash.",-0.832567,Negatif,2023-12-24 12:20:00
+"Prosesor yang cepat membuat segalanya berjalan lancar.",0.876543,Positif,2023-12-24 12:21:00
+"Layar smartphone ini tahan goresan.",0.789012,Positif,2023-12-24 12:22:00
+"Fitur kamera selfie sangat bagus.",0.843210,Positif,2023-12-24 12:23:00
+"Smartphone ini sangat berguna untuk pekerjaan saya.",0.912345,Positif,2023-12-24 12:24:00
+"Kualitas suara speaker buruk.",-0.698765,Negatif,2023-12-24 12:25:00
+"Sistem operasi sering crash.",-0.865432,Negatif,2023-12-24 12:26:00
+"Baterai awet seharian membuat hidup lebih mudah.",0.798765,Positif,2023-12-24 12:27:00
+"Smartphone ini tidak tahan air.",-0.789012,Negatif,2023-12-24 12:28:00
+"Kualitas kamera cukup memuaskan.",0.743210,Positif,2023-12-24 12:29:00
+"Tampilan layar yang buruk membuat saya kesal.",-0.865432,Negatif,2023-12-24 12:30:00
+"Smartphone ini sangat modern.",0.876543,Positif,2023-12-24 12:31:00
+"Prosesor yang lambat membuat saya frustasi.",-0.789012,Negatif,2023-12-24 12:32:00
+"Fitur kamera yang inovatif membuat saya senang.",0.832567,Positif,2023-12-24 12:33:00
+"Smartphone ini sangat ringan dan mudah dibawa.",0.798765,Positif,2023-12-24 12:34:00
+"Sinyal jaringan sering drop.",-0.765432,Negatif,2023-12-24 12:35:00
+"Kualitas layar yang luar biasa.",0.876543,Positif,2023-12-24 12:36:00
+"Desain fisik yang elegan membuat saya bangga.",0.865432,Positif,2023-12-24 12:37:00
+"Baterai tahan lama membuat saya puas.",0.798765,Positif,2023-12-24 12:38:00
+"Kamera depan cukup memadai.",0.743210,Positif,2023-12-24 12:39:00
+"Sistem operasi sangat user-friendly.",0.843210,Positif,2023-12-24 12:40:00
+"Harga terjangkau untuk kualitas yang ditawarkan.",0.754321,Positif,2023-12-24 12:41:00
+"Smartphone ini sering hang.",-0.765432,Negatif,2023-12-24 12:42:00
+"Layar yang tajam membuat gambar terlihat indah.",0.876543,Positif,2023-12-24 12:43:00
+"Baterai cepat habis.",-0.789012,Negatif,2023-12-24 12:44:00
+"Kualitas kamera belakang sangat baik.",0.832567,Positif,2023-12-24 12:45:00
+"Sistem operasi yang stabil membuat saya senang.",0.798765,Positif,2023-12-24 12:46:00
+"Desain fisiknya terlalu besar.",-0.743210,Negatif,2023-12-24 12:47:00
+"Kualitas suara speaker bagus.",0.865432,Positif,2023-12-24 12:48:00
+"Prosesor yang cepat membuat segalanya lebih cepat.",0.832567,Positif,2023-12-24 12:49:00
+"Smartphone ini sangat kuat dan tahan lama.",0.865432,Positif,2023-12-24 12:50:00
+"Tampilan layar yang jernih membuat saya senang.",0.798765,Positif,2023-12-24 12:51:00
+"Fitur kamera selfie sangat memuaskan.",0.843210,Positif,2023-12-24 12:52:00
+"Smartphone ini sangat praktis.",0.798765,Positif,2023-12-24 12:53:00
+"Harga terlalu tinggi untuk fitur yang ditawarkan.",-0.687912,Negatif,2023-12-24 12:54:00
+"Sinyal jaringan sangat stabil.",0.865432,Positif,2023-12-24 12:55:00
+"Sistem operasi yang mudah digunakan.",0.876543,Positif,2023-12-24 12:56:00
+"Baterai tahan lama membuat saya senang.",0.832567,Positif,2023-12-24 12:57:00
+"Kualitas kamera belakang sangat memuaskan.",0.843210,Positif,2023-12-24 12:58:00
+"Tampilan layar yang tajam membuat pengalaman menonton lebih baik.",0.798765,Positif,2023-12-24 12:59:00
+"Saya sangat menyukai smartphone ini!",0.832567,Positif,2023-12-24 12:00:00
+"Kualitas kamera sangat buruk.",-0.478123,Negatif,2023-12-24 12:01:00
+"Harga terlalu mahal untuk fitur yang ditawarkan.",-0.687912,Negatif,2023-12-24 12:02:00
+"Baterai awet seharian.",0.754321,Positif,2023-12-24 12:03:00
+"Sistem operasi sangat lancar.",0.813456,Positif,2023-12-24 12:04:00
+"Tidak ada pembaruan perangkat lunak yang tersedia.",-0.623456,Negatif,2023-12-24 12:05:00
+"Desain smartphone sangat elegan.",0.914567,Positif,2023-12-24 12:06:00
+"Layar smartphone terlalu kecil.",-0.421345,Negatif,2023-12-24 12:07:00
+"Fitur kamera sangat kreatif.",0.712345,Positif,2023-12-24 12:08:00
+"Sinyal jaringan sangat kuat.",0.825432,Positif,2023-12-24 12:09:00
+"Kualitas layar cukup baik.",0.643215,Positif,2023-12-24 12:10:00
+"Harga terjangkau untuk kualitas yang diberikan.",0.721234,Positif,2023-12-24 12:11:00
+"Saya kecewa dengan baterai yang cepat habis.",-0.654321,Negatif,2023-12-24 12:12:00
+"Fitur-fitur canggih membuat smartphone ini luar biasa.",0.945678,Positif,2023-12-24 12:13:00
+"Saya sangat menyukai smartphone ini!",0.800000,Positif,2023-12-24 12:00:00
+"Kualitas kamera sangat buruk.",-0.500000,Negatif,2023-12-24 12:01:00
+"Harga terlalu mahal untuk fitur yang ditawarkan.",-0.700000,Negatif,2023-12-24 12:02:00
+"Baterai awet seharian.",0.700000,Positif,2023-12-24 12:03:00
+"Sistem operasi sangat lancar.",0.800000,Positif,2023-12-24 12:04:00
+"Tidak ada pembaruan perangkat lunak yang tersedia.",-0.600000,Negatif,2023-12-24 12:05:00
+"Desain smartphone sangat elegan.",0.900000,Positif,2023-12-24 12:06:00
+"Layar smartphone terlalu kecil.",-0.400000,Negatif,2023-12-24 12:07:00
+"Fitur kamera sangat kreatif.",0.700000,Positif,2023-12-24 12:08:00
+"Sinyal jaringan sangat kuat.",0.800000,Positif,2023-12-24 12:09:00
+"Kualitas layar cukup baik.",0.600000,Positif,2023-12-24 12:10:00
+"Harga terjangkau untuk kualitas yang diberikan.",0.700000,Positif,2023-12-24 12:11:00
+"Saya kecewa dengan baterai yang cepat habis.",-0.600000,Negatif,2023-12-24 12:12:00

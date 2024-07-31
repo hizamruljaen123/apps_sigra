@@ -1,0 +1,86 @@
+/* CSS untuk mempercantik tampilan section 'Scraping Data from YouTube' */
+
+/* Style form input */
+#youtube-link {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style tombol 'Get YouTube Comment' */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect untuk tombol */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style tabel komentar */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style header tabel */
+.table th {
+  background-color: #ababab;
+  color: white;
+  padding: 8px;
+  text-align: left;
+  font-size: 12px;
+  border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Untuk menempatkan header di atas konten tabel */
+}
+
+/* Style sel dalam tabel */
+.table td {
+  padding: 8px;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style div kontainer tabel */
+.table-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#loadingScreen {
+    position: fixed; /* Fixed/sticky position */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.5); /* Black with a bit of opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Sit on top */
+}
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,86 @@
+/* CSS untuk mempercantik tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* CSS untuk sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* CSS untuk latar belakang */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* CSS untuk font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+/* CSS untuk tombol */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* CSS untuk membuat sidebar tinggi penuh (full height) dan sticky */
+
+/* Gaya sidebar */
+#sidebar {
+    height: 100vh; /* Tinggi sidebar sesuai tinggi viewport */
+    position: sticky;
+    top: 0; /* Menempel di bagian atas viewport */
+    background-color: #333; /* Warna latar belakang sidebar */
+    padding-top: 20px; /* Spasi atas sidebar */
+}
+
+/* Gaya link menu di sidebar */
+#sidebar a {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: grey;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Efek hover */
+}
+
+/* Efek hover pada link menu di sidebar */
+#sidebar a:hover {
+    background-color: #555;
+    color: white;
+}
+

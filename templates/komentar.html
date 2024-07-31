@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="{{ url_for('static', filename='js/main_script.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div id="loadingScreen" style="display:none;">
+            <div class="loader"></div>
+            <p>Loading...</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Sidebar -->
+                {% include 'sidebar.html' %}
+                <!-- Main Content -->
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <h2>Daftar Koementar</h2>
+                    <div class="text-right">
+                        <button class="btn btn-sm btn-secondary" onclick="truncateYoutubeComments()">Hapus Semua Komentar</button>
+                    </div>
+                    <br>
+                    <div class="table-responsive table-container">
+                        <table class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Author</th>
+                                    <th>Comment</th>
+                                    <th>DateTime</th>
+                                    <th>Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="youtube_comments_data">
+                                <!-- Data akan dimuat di sini melalui JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </main>
+            </div>
+        </div>
+        
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!-- Chart.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/11.2.0/highcharts.js" integrity="sha512-yQKwezlCfw1iUy19z7b7xp0Xz20rBfEUI9iN5jQ55e56WXzi4ZPQpiKsn0xtSUWIYuV2y6B+GsHgsLK8KAZrFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Custom Script -->
+        <script>
+        fetchAndDisplayYoutubeComments()
+        </script>
+    </body>
+</html>
